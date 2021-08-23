@@ -57,7 +57,7 @@ IF %inp%==n goto :Menu
 
 :print
 md Details 
-ipconfig >MY_IP\IP.txt
+ipconfig >Details\MY_IP\IP.txt
 cls
 goto Menu
 
